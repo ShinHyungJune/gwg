@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>메인</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no, address=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../comn/css/default.css">
+    <link rel="stylesheet" href="../comn/css/aos-2.3.1.css">
+    <link rel="stylesheet" href="../comn/css/animate.css">
+    <link rel="stylesheet" href="../comn/css/swiper.min.css">
+    <link rel="stylesheet" href="../comn/css/common.css">
+    <link rel="stylesheet" href="../comn/css/im_board.css">
+    <link rel="stylesheet" href="../comn/css/base.css">
+    <link rel="stylesheet" href="../comn/css/custom.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <script src="../comn/js/jquery-1.7.1.min.js"></script>
+    <script src="../comn/js/swiper.min.js"></script>
+    <script src="../comn/js/aos-2.3.1.js"></script>
+    <script src="../comn/js/common.js"></script> 
+    <script src="../comn/js/custom.js?a=1"></script>
+</head>
+<body>
+
+<div class="skip-navigation">
+    <a href="#contents_wrap">메뉴 건너뛰기</a>
+</div>
+
+<div class="wrapper">
+	<header>
+		<div class="header-lnb">
+			<div class="container">
+				<div class="flex flex-vc flex-tj">
+					<dl>
+						<dd><a href="">고성군<span>의회</span> 메인</a></dd>
+						<dd>
+							<button type="button" onclick="togglePerson(this);">의원홈페이지</button>
+							<div>
+								<span><a href="">김일용</a></span>
+								<span><a href="">이순매</a></span>
+								<span><a href="">용광열</a></span>
+								<span><a href="">송홍복</a></span>
+								<span><a href="">함용빈</a></span>
+								<span><a href="">함형진</a></span>
+								<span><a href="">김진</a></span>
+							</div>
+						</dd>
+					</dl>
+					<ul>
+						<li><a href="">고성군행정포털</a></li>
+						<li><a href="">미디어홍보관</a></li>
+						<li><a href="">관광포털</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header-gnb">
+			<div class="container">
+				<h1><a href=""><img src="../comn/img/logo.png"></a></h1>
+				<div class="gnb">
+					<ul>
+						<li class="active"><a href="">의회소개</a></li>
+						<li><a href="">의원공지</a></li>
+						<li><a href="">발언/발의</a></li>
+						<li><a href="">의정활동</a></li>
+						<li><a href="">보도자료</a></li>
+						<li><a href="">의원에게바란다</a></li>
+					</ul>
+					<div class="header-snb">
+						<div class="box">
+							<div class="header-snb-head">
+								<h2><img src="../comn/img/logo.png"></h2>
+								<a href="javascript:;" onclick="menuClose();" class="close">닫기</a>
+							</div>
+							<div class="header-snb-body">
+								<ul>
+									<li>
+										<button type="button">의회소개</button>
+										<dl>
+											<dd><a href="">의장인사말</a></dd>
+											<dd><a href="">의장연설문</a></dd>
+											<dd>
+												<a href="">의회연혁 및 구성</a>
+												<dl>
+													<dd><a href="">의회연혁</a></dd>
+													<dd><a href="">의회구성</a></dd>
+												</dl>
+											</dd>
+											<dd><a href="">의회연락망</a></dd>
+											<dd><a href="">오시는길</a></dd>
+										</dl>
+									</li>
+									<li>
+										<button type="button">의원마당</button>
+										<dl>
+											<dd><a href="">현역의원</a></dd>
+											<dd>
+												<a href="">역대의원</a>
+												<dl>
+													<dd><a href="">역대의장</a></dd>
+													<dd><a href="">역대의원</a></dd>
+												</dl>
+											</dd>
+										</dl>
+									</li>
+									<li>
+										<button type="button">의회기능</button>
+										<dl>
+											<dd><a href="">진정/민원/청원</a></dd>
+											<dd><a href="">방청/견학</a></dd>
+											<dd><a href="">자유발언</a></dd>
+											<dd><a href="">건의문</a></dd>
+										</dl>
+									</li>
+									<li>
+										<button type="button">의회소식</button>
+										<dl>
+											<dd><a href="">공지사항</a></dd>
+											<dd><a href="">고시공고</a></dd>
+											<dd><a href="">의사일정</a></dd>
+											<dd><a href="">의회간담회</a></dd>
+											<dd><a href="">의회포토</a></dd>
+										</dl>
+									</li>
+									<li>
+										<button type="button">의정자료</button>
+										<dl>
+											<dd><a href="">자치법규</a></dd>
+											<dd><a href="">의정간행물</a></dd>
+											<dd><a href="">의정백서</a></dd>
+											<dd><a href="">통계연보</a></dd>
+											<dd><a href="">정보공개</a></dd>
+										</dl>
+									</li>
+									<li>
+										<button type="button">희의록</button>
+										<dl>
+											<dd>
+												<a href="">의안관리</a>
+												<dl>
+													<dd><a href="">의안검색</a></dd>
+													<dd><a href="">의안통계</a></dd>
+												</dl>
+											</dd>
+											<dd><a href="">회의록검색</a></dd>
+											<dd><a href="">최근회의록</a></dd>
+											<dd><a href="">회의록영상</a></dd>
+										</dl>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu">
+					<a href="javascript:;" onclick="menuOpen();">전체메뉴</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="animated-title">
+			<div class="track">
+				<div class="content">
+					<img src="../comn/img/img_sub_main_text.png">
+					<img src="../comn/img/img_sub_main_text.png">
+					<img src="../comn/img/img_sub_main_text.png">
+					<img src="../comn/img/img_sub_main_text.png">
+					<img src="../comn/img/img_sub_main_text.png">
+				</div>
+			</div>
+		</div>
+		<div class="sub-main">
+			<img src="../comn/img/img_sub_main.png">
+			<div class="container">
+				<div class="content">
+					<h2>"군민 여러분의 꿈과 희망이<br class="is-m"> 현실이 되도록<br>최선의 노력을 다하겠습니다"</h2>
+					<div class="content-head">
+						<small>열린의정, 신뢰받는 고성군 의회</small>
+						<b>김일용 의장</b>
+						<div class="main-bg">
+							<div>
+								<img src="../comn/img/img_person_circle_text2.png">
+								<a href="">의원소개<br>바로가기</a>
+							</div>
+						</div>
+					</div>
+					<div class="content-body">
+						<ul>
+							<li>
+								<span>선거구</span>
+								<span>나선거구(거진읍, 현내면)</span>
+							</li>
+							<li>
+								<span>소속정당</span>
+								<span>국민의힘</span>
+							</li>
+							<li>
+								<span>사무실</span>
+								<span>033-333-3333</span>
+							</li>
+							<li>
+								<span>휴대폰</span>
+								<span>010-9916-4858</span>
+							</li>
+							<li>
+								<span>이메일</span>
+								<span>gwangwon123@gmail.com</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sub-board">
+			<div class="container">
+				<div class="board-title flex flex-vc">
+					<div class="sub-main-title">
+						<small>한눈에 보는</small>
+						<h2 class="active">발언·발의</h2>
+					</div>
+					<div class="swiper-control">
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+				</div>
+				<div class="swiper-container">
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide">
+							<a href="">
+								<strong>제 331회 고성군의회 (제 2차 정례회)<br>자유발언</strong>
+								<p>'지역의 교육문제 이렇게 타파하자,고성군 지역의 교육혁신을 준비한다!'에 대한 자유발언</p>
+								<time>2022.02.02</time>
+								<div><span>more</span></div>
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="">
+								<strong>제 331회 고성군의회 (제 2차 정례회)<br>자유발언</strong>
+								<p>'지역의 교육문제 이렇게 타파하자,고성군 지역의 교육혁신을 준비한다!'에 대한 자유발언</p>
+								<time>2022.02.02</time>
+								<div><span>more</span></div>
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="">
+								<strong>제 331회 고성군의회 (제 2차 정례회)<br>자유발언</strong>
+								<p>'지역의 교육문제 이렇게 타파하자,고성군 지역의 교육혁신을 준비한다!'에 대한 자유발언</p>
+								<time>2022.02.02</time>
+								<div><span>more</span></div>
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="">
+								<strong>제 331회 고성군의회 (제 2차 정례회)<br>자유발언</strong>
+								<p>'지역의 교육문제 이렇게 타파하자,고성군 지역의 교육혁신을 준비한다!'에 대한 자유발언</p>
+								<time>2022.02.02</time>
+								<div><span>more</span></div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="sub-activity">
+			<div class="container">
+				<div class="sub-main-title">
+					<small>사진으로 보는</small>
+					<h2>의정활동</h2>
+				</div>
+				<div class="act-box">
+					<div class="act-left">
+						<a href="" class="list-box">
+							<div class="list-image">
+								<img src="../comn/img/img_activity_01.png">
+							</div>
+							<div class="list-content">
+								<p>남성의용소방대장및 연합회장 취임식</p>
+								<dl>
+									<dd>
+										<span>일시</span>
+										<span>2022.04.03(월)</span>
+									</dd>
+									<dd>
+										<span>장소</span>
+										<span>고성소방서</span>
+									</dd>
+								</dl>
+							</div>
+						</a>
+					</div>
+					<div class="act-right">
+						<ul>
+							<li>
+								<a href="" class="list-box">
+									<div class="list-image">
+										<img src="../comn/img/img_activity_02.png">
+									</div>
+									<div class="list-content">
+										<p>4월의원간담회</p>
+										<dl>
+											<dd>
+												<span>일시</span>
+												<span>2022.04.03(월)</span>
+											</dd>
+											<dd>
+												<span>장소</span>
+												<span>고성소방서</span>
+											</dd>
+										</dl>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="" class="list-box">
+									<div class="list-image">
+										<img src="../comn/img/img_activity_03.png">
+									</div>
+									<div class="list-content">
+										<p>간성읍 번영회 15대 회장 취임식</p>
+										<dl>
+											<dd>
+												<span>일시</span>
+												<span>2022.04.03(월)</span>
+											</dd>
+											<dd>
+												<span>장소</span>
+												<span>고성소방서</span>
+											</dd>
+										</dl>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="" class="list-box">
+									<div class="list-image">
+										<img src="../comn/img/img_activity_04.png">
+									</div>
+									<div class="list-content">
+										<p>연어의 꿈 잔치 행사</p>
+										<dl>
+											<dd>
+												<span>일시</span>
+												<span>2022.04.03(월)</span>
+											</dd>
+											<dd>
+												<span>장소</span>
+												<span>고성소방서</span>
+											</dd>
+										</dl>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="footer-sub-quick">
+				<img src="../comn/img/img_sub_quick_title.png">
+				<ul>
+					<li><a href=""><img src="../comn/img/img_sub_quick_cont_01.png"></a></li>
+					<li><a href=""><img src="../comn/img/img_sub_quick_cont_02.png"></a></li>
+				</ul>
+			</div>
+			<div class="footer-select">
+				<select>
+					<option>유관기관</option>
+				</select>
+				<select>
+					<option>전국시도의회</option>
+				</select>
+				<select>
+					<option>강원도군의회</option>
+				</select>
+				<select>
+					<option>중앙기관</option>
+				</select>
+			</div>
+			<div class="footer-link">
+				<ul>
+					<li class="active"><a href="">개인정보처리방침</a></li>
+					<li><a href="">이메일수집거부</a></li>
+					<li><a href="">오시는길</a></li>
+				</ul>
+			</div>
+			<div class="footer-info">
+				<ul>
+					<li>
+						<span>강원도 고성군 간성읍 고성중앙길 9(우24735)</span>
+						<span><b>대표전화</b>033-681-5671~3</span>
+					</li>
+					<li>COPYRIGHT© GOSEONG-GUN COUNCIL.ALL RIGHT RESERVED.</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="../comn/js/swiper.js?a=1"></script> 
+</body>
+</html>
