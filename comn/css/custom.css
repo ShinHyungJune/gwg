@@ -1145,5 +1145,27 @@ footer .footer-info ul li span:after {display:none;}
 .m-policy.type01 {
   padding: 30px 40px;
   border: 1px solid #ccc;
-  white-space: pre-wrap;
 }
+.m-policy.type01 section {
+  margin-top:40px;
+}
+.m-policy.type01 section:first-of-type {
+  margin-top:0;
+}
+.m-policy.type01 section .title {
+  margin-bottom:10px;
+  font-size:18px; font-weight:bold; line-height:24px;
+}
+.m-policy.type01 * {
+  font-family: "Noto Sans KR" !important;
+}
+.m-policy.type01 .body {
+  line-height:24px;
+  white-space: pre-line;
+  word-break: keep-all;
+}
+.m-policy.type01 .m-table.type01 {
+  margin-top:12px;
+}
+.m-policy.type01 th {word-break: keep-all; vertical-align: middle;}
+.m-policy.type01 td {word-break: keep-all; vertical-align: middle;}
